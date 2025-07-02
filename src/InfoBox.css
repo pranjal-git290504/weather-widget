@@ -1,0 +1,53 @@
+.InfoBox{
+  text-align: center;
+}
+
+.cardContainer{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.weather-card {
+  transition: transform 0.3s ease,
+box-shadow 0.3s ease}
+
+.weather-card:hover {
+  transform: translateY(-5px);
+}
+
+.city-Title{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  font-weight: 600 !important;
+  margin-bottom: 20px !important;
+
+}
+
+.weather-details {
+  text-align: left;
+}
+
+.weather-info p {
+  margin: 8px 0;
+  padding: 5px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 1rem;
+}
+
+.weather-info p:last-child {
+  border-bottom: none;
+}
+
+
+
+@media (max-width: 768px) {
+  .temperature {
+    font-size: 2.5rem;
+  }
+  
+  .city-title {
+    font-size: 1.8rem !important;
+  }
+}
