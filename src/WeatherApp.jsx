@@ -16,7 +16,7 @@ export default function WeatherApp() {
 
   const [isLoading, setIsLoading] = useState(true);
 
-  const API_URL = "http://api.openweathermap.org/data/2.5/weather";
+  const API_URL = "https://api.openweathermap.org/data/2.5/weather";
   const API_KEY = "d4e5be9b637cb6ac7867c24564b8edd4";
 
   // Function to get weather by coordinates
