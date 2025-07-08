@@ -4,7 +4,6 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import SearchBox from "./SearchBox";
 import InfoBox from "./InfoBox";
-import WeatherApps from "./WeatherApps";
 import WeatherApp from "./WeatherApp";
 
 function App() {
@@ -12,10 +11,7 @@ function App() {
 
   return (
     <>
-      {/* <WeatherApps></WeatherApps> */}
       <WeatherApp></WeatherApp>
-      {/* <SearchBox></SearchBox>
-      <InfoBox></InfoBox> */}
     </>
   );
 }
